@@ -1,0 +1,30 @@
+body {
+    font-family:Roboto;
+    background-color: #9B704B;
+    color: #469EB0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Playfair Display";
+    font-size:40pt;
+}
+
+header {
+    text-align:center; 
+}
+
+#hero,footer {
+    background-color: #463F39;
+    border:2px solid #25CCEF;
+    text-align:center;
+    padding:10px; 
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align:center;
+}
