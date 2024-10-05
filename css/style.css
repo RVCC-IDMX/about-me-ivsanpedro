@@ -28,3 +28,8 @@ header {
 #bio {
     text-align:center;
 }
+
+#pictures img{
+    border: 15px solid white;
+    box-shadow: 5px 5px 5px black;
+}
