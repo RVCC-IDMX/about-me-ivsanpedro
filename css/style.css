@@ -33,3 +33,12 @@ header {
     border: 15px solid white;
     box-shadow: 5px 5px 5px black;
 }
+
+#Dorian p::first-letter{
+    color:white;
+    font-size:7rem;
+    line-height: .65;
+    border: 3px;
+    float:left;
+
+}
