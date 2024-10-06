@@ -39,6 +39,7 @@ header {
 /*Gallery*/
 #gallery{
     border: 6px dashed #25CCEF;
+    margin-bottom:1rem;
 }
 
 #gallery img{
@@ -51,12 +52,29 @@ header {
     text-align: center;
 }
 
-
+/*Literature*/
 #Dorian p::first-letter{
-    color:white;
-    font-size:7rem;
+    color: #f08224;;
+    font-size:5rem;
     line-height: .65;
-    border: 3px;
+    border: 3px solid #25CCEF;
+    margin-right: 5px;
     float:left;
+    padding:.20em;
+    font-family:"Playfair Display";
+    box-shadow:2px 2px 2px black;
+    border-bottom-left-radius: .5em;
+    border-top-right-radius: .5em;
 
+}
+
+#Dorian{
+    border: 6px dashed #25CCEF;
+    margin-bottom:2rem;
+}
+
+#Dorian div{
+    padding:2rem;
+    max-width:50rem;
+    margin:0 auto;
 }
