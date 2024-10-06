@@ -7,6 +7,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Playfair Display";
+    text-align:center;
 }
 
 h1{
@@ -23,18 +24,33 @@ header {
     padding:10px; 
 }
 
+/*Hero Section*/
+
 #hero img {
     width:300px;
 }
+
+/*Bio Section*/
 
 #bio {
     text-align:center;
 }
 
-#pictures img{
-    border: 15px solid white;
-    box-shadow: 5px 5px 5px black;
+/*Gallery*/
+#gallery{
+    border: 6px dashed #25CCEF;
 }
+
+#gallery img{
+    max-width:100%;
+    border: 3px solid #25CCEF;
+    box-shadow: 6px 6px 6px black;
+}
+
+#gallery figure{
+    text-align: center;
+}
+
 
 #Dorian p::first-letter{
     color:white;
