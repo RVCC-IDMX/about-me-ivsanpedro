@@ -1,7 +1,3 @@
-*{
-    outline: 1px solid red;
-}
-
 body {
     font-family:Roboto;
     background-color: #9B704B;
@@ -20,6 +16,7 @@ h2{
 
 h1{
     font-size:40pt;
+    margin:.1rem;
 }
 
 header {
@@ -93,10 +90,10 @@ header {
     flex-direction: column;
     align-items: center;
 }
-
+/* 
 figure img{
     width: 100%;
-}
+} */
 
 /*Tablet Size */
 @media screen and (min-width: 60em){
