@@ -1,3 +1,7 @@
+*{
+    outline: 1px solid red;
+}
+
 body {
     font-family:Roboto;
     background-color: #9B704B;
@@ -8,11 +12,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:"Playfair Display";
     text-align:center;
+    font-size: 55px;
+}
+h2{
+    margin:.1em;
 }
 
 h1{
     font-size:40pt;
 }
+
 header {
     text-align:center; 
 }
@@ -77,4 +86,24 @@ header {
     padding:2rem;
     max-width:50rem;
     margin:0 auto;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 60em){
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1 fr;
+    }
+}
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
