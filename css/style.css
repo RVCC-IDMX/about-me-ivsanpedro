@@ -62,7 +62,7 @@ header {
 }
 
 /*Literature*/
-#Dorian p::first-letter{
+#Dorian div p:first-child:first-letter{
     color: #f08224;;
     font-size:5rem;
     line-height: .65;
@@ -94,6 +94,10 @@ header {
     align-items: center;
 }
 
+figure img{
+    width: 100%;
+}
+
 /*Tablet Size */
 @media screen and (min-width: 60em){
     figure{
@@ -106,6 +110,31 @@ figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 1 rem;
+}
+
+#Dorian div{
+    max-width: 80%;
+    columns: 20rem;
+}
+
+/* Large Screen Size */
+@media screen and (min-width:100em){
+    #gallery{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    hr{
+        display:none;
+    }
+
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+
+    figure{
+        display: block;
+    }
 }
