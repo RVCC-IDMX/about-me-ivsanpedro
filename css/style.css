@@ -2,7 +2,6 @@ body {
     font-family:Roboto;
     background-color: #9B704B;
     color: #469EB0;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,7 +9,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align:center;
     font-size: 55px;
 }
-h2{
+
+h2{ 
     margin:.1em;
 }
 
@@ -45,7 +45,6 @@ header {
 /*Gallery*/
 #gallery{
     border: 6px dashed #25CCEF;
-    margin-bottom:1rem;
 }
 
 #gallery img{
@@ -56,6 +55,7 @@ header {
 
 #gallery figure{
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 /*Literature*/
@@ -114,6 +114,22 @@ figcaption{
 #Dorian div{
     max-width: 80%;
     columns: 20rem;
+}
+
+#myVideo{
+    text-align:center;
+    border-left: 6px dashed #25CCEF;
+    border-right: 6px dashed #25CCEF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+iframe{
+    border: 7px double white;
+    border-bottom-left-radius: .5em;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+    border-bottom-right-radius: .5em;
 }
 
 /* Large Screen Size */
