@@ -119,7 +119,7 @@
                 <fieldset>
                     <legend>Contact Form</legend>
 
-                    <div id="formElements">
+                    <div id="formElements" name="contactForm" method="post" data-netlifty="true">
 
                         <!--Name-->
                         <label for="name">Name (required)</label>
@@ -152,15 +152,18 @@
                             <legend>Would you like a reply?</legend>
                             <ul>
                                 <li>
-                                    <input type="radio" id="message-yes" name="reply">
+                                    <input type="radio" id="message-yes" name="reply" value="Yes a reply please.">
                                     <label for="message-yes">Yes a reply would be nice. </label>
                                 </li>
                                 <li>
-                                    <input type="radio" id="message-no" name="reply">
+                                    <input type="radio" id="message-no" name="reply" value="No reply please." checked>
                                     <label for="message-no">No, thanks.</label>
                                 </li>
                             </ul>
                         </fieldset>
+
+                        <!--Submit-->
+                        <button type="submit">Send</button>
 
 
                     </div>
