@@ -155,4 +155,52 @@ iframe{
 /*Contact Form*/
 #formElements{
     display: grid;
+    row-gap:.5em;
+}
+
+#contact{
+    padding: 1rem;
+    max-width:600px;
+    margin: 2rem auto;
+}
+
+fieldset{
+    border: 3px solid #25CCEF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2rem;
+    box-shadow:5px 5px 5px #636E70;
+    color: white;
+}
+
+legend{
+    background-color: #25CCEF;
+    color: white;
+    padding:.5em;
+    box-shadow:3px 3px 3px white;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding:.5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    list-style:none;
+    padding:0px;
+}
+
+#contact li{
+    margin:1rem;
+}
+
+#contact button{
+    background-color: #25CCEF;
+    color: white;
+    border-radius: 2rem;
+    border:1px solid #469EB0;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+    font-weight:bold;
 }
