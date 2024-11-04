@@ -130,6 +130,8 @@ iframe{
     border-top-right-radius: .5em;
     border-top-left-radius: .5em;
     border-bottom-right-radius: .5em;
+    max-width:100%;
+    height:auto;
 }
 
 /* Large Screen Size */
@@ -150,6 +152,7 @@ iframe{
     figure{
         display: block;
     }      
+
 }
 
 /*Contact Form*/
