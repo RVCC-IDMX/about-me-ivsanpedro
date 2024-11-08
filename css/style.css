@@ -59,7 +59,7 @@ header {
 }
 
 /*Literature*/
-#Dorian div p:first-child:first-letter{
+#lit div p:first-child:first-letter{
     color: #f08224;;
     font-size:5rem;
     line-height: .65;
@@ -74,12 +74,12 @@ header {
 
 }
 
-#Dorian{
+#lit{
     border: 6px dashed #25CCEF;
     margin-bottom:2rem;
 }
 
-#Dorian div{
+#lit div{
     padding:2rem;
     max-width:50rem;
     margin:0 auto;
@@ -111,7 +111,7 @@ figcaption{
     margin-left: 1 rem;
 }
 
-#Dorian div{
+#lit div{
     max-width: 80%;
     columns: 20rem;
 }
