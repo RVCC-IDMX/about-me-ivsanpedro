@@ -60,7 +60,7 @@ main{
 */
 .navbar-links a{
     color: whitesmoke;
-    background-attachment: darkgrey;
+    background-color: darkgrey;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -68,9 +68,14 @@ main{
     display: inline-block;
 }
 
+.navbar-links a:hover, 
+.navbar-links a:focus{
+    color: darkgray;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
 
-
-
+}
 
 /* 
 media query for non-mobile nav bar
